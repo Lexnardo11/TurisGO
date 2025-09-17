@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+         <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/TurisGO.png" alt="Bootstrap" width="200">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="empresa.html">Empresa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="">Contacto</a>
+                    </li>
+                </div>  
+            </div>
+        </nav>
+    </header>
+    <section class="contact-hero text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Contáctanos</h1>
+            <p class="lead">Estamos aquí para ayudarte a planear tu próxima aventura</p>
+        </div>
+    </section>
+
+    <!-- Form Section -->
+    <section class="form-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="contact-card card">
+                        <div class="row g-0">
+                            <!-- Información de contacto -->
+                            <div class="col-lg-4">
+                                <div class="contact-info">
+                                    <h3 class="mb-4">Información de contacto</h3>
+                                    
+                                    <div class="info-item">
+                                        <div class="contact-icon">
+                                            <i class="bi bi-telephone-fill"></i>
+                                        </div>
+                                        <h5>Teléfono</h5>
+                                        <p>+52 961 123 4567</p>
+                                    </div>
+                                    
+                                    <div class="info-item">
+                                        <div class="contact-icon">
+                                            <i class="bi bi-envelope-fill"></i>
+                                        </div>
+                                        <h5>Email</h5>
+                                        <p>info@turisgo.com</p>
+                                    </div>
+                                    
+                                    <div class="info-item">
+                                        <div class="contact-icon">
+                                            <i class="bi bi-geo-alt-fill"></i>
+                                        </div>
+                                        <h5>Ubicación</h5>
+                                        <p>Tuxtla Gutiérrez, Chiapas</p>
+                                    </div>
+                                    
+                                    <div class="info-item">
+                                        <div class="contact-icon">
+                                            <i class="bi bi-clock-fill"></i>
+                                        </div>
+                                        <h5>Horario de atención</h5>
+                                        <p>Lunes a Viernes: 9:00 - 18:00<br>Sábados: 9:00 - 14:00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Formulario -->
+                            <div class="col-lg-8">
+                                <div class="card-body p-5">
+                                    <h3 class="mb-4">Envía un mensaje</h3>
+                                    <form>
+                                        <div class="row">
+                                            <div class="col-md-6 mb-3">
+                                                <label for="nombre" class="form-label">Nombre completo *</label>
+                                                <input type="text" class="form-control" id="nombre" required>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <label for="email" class="form-label">Correo electrónico *</label>
+                                                <input type="email" class="form-control" id="email" required>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="row">
+                                            <div class="col-md-6 mb-3">
+                                                <label for="telefono" class="form-label">Teléfono</label>
+                                                <input type="tel" class="form-control" id="telefono">
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <label for="asunto" class="form-label">Asunto *</label>
+                                                <select class="form-select" id="asunto" required>
+                                                    <option value="" selected disabled>Selecciona una opción</option>
+                                                    <option value="consulta">Consulta general</option>
+                                                    <option value="reserva">Reserva de paquete</option>
+                                                    <option value="personalizado">Viaje personalizado</option>
+                                                    <option value="grupo">Viaje grupal</option>
+                                                    <option value="problema">Problema con reserva</option>
+                                                    <option value="otros">Otros</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="mb-3">
+                                            <label for="mensaje" class="form-label">Mensaje *</label>
+                                            <textarea class="form-control" id="mensaje" rows="5" required></textarea>
+                                        </div>
+                                        <div class="d-grid">
+                                            <button type="submit" class="btn btn-turisgo">Enviar mensaje</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="custom-footer mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="mb-0">TurisGO &copy; Tuxtla Gutiérrez - Chiapas</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
