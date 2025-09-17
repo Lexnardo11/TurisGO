@@ -1,5 +1,5 @@
 .hero-section {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/fondo1.jpg);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/fondo1.jpg);
             color: #ffffff;
             padding: 100px 0;
             margin-bottom: 40px;
@@ -203,3 +203,4 @@
             margin-bottom: 25px;
 
         }
+
